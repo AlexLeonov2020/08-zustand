@@ -1,5 +1,6 @@
 import { FetchNotesRes } from "@/lib/api";
 
+
 export interface Note {
   id: string;
   title: string;

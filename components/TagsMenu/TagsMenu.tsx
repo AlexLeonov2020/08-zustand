@@ -10,6 +10,7 @@ const TagsMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
 
+  
   return (
     <div className={css.menuContainer}>
       <button onClick={toggle} className={css.menuButton}>
